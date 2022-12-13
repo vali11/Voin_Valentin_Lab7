@@ -11,6 +11,7 @@
             <local:ValidationBehaviour />
         </Editor.Behaviors>
     </Editor>
+        <Picker x:Name="ShopPicker" Title="Enter Shop Name"/>
         <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -26,6 +27,7 @@
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
-    <Button Text="Add/Choose Item to buy" MaximumWidthRequest="300" Clicked="OnChooseButtonClicked"/>
+    <Button Text="Add/Choose Item to buy" MaximumWidthRequest="300" Clicked="OnChooseButtonClicked"/>
+
     </StackLayout>
 </ContentPage>
